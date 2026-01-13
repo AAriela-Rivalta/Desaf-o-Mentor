@@ -7,7 +7,8 @@ export const TicketGenerado = () => {
   const {fullName, githubUser, url} = sotre;
 
   return(
-    <div className='h-40 w-85.5 flex flex-col justify-between p-4 bg-[url(/assets/images/pattern-ticket.svg)] bg-contain bg-no-repeat relative sm:h-50 sm:w-105 md:h-65 md:w-140 mx-auto'>
+    <div className='h-40 w-85.5 flex flex-col justify-between p-4 bg-[url(/assets/images/pattern-ticket.svg)] bg-contain 
+    bg-no-repeat relative sm:h-50 sm:w-105 md:h-65 md:w-140 mx-auto'>
       <div>
         <img src="/assets/images/logo-full.svg" alt="logo" />
         <p className='md:text-2xl'>Jan 31, 2025 / Austing, TX</p>

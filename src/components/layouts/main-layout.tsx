@@ -6,9 +6,9 @@ interface Props{
 
 export const MainLayout = ({children}:Props) => {
     return (
-      <main className="py-8 px-4 bg-[url(assets/images/background-mobile.png)] bg-cover bg-bottom relative
-      md:bg-[url(assets/images/background-tablet.png)] 
-      lg:bg-[url(assets/images/background-desktop.png)] overflow-hidden min-h-screen">
+      <main className="py-8 px-4 bg-[url(/assets/images/background-mobile.png)] bg-cover bg-bottom relative
+      md:bg-[url(/assets/images/background-tablet.png)] 
+      lg:bg-[url(/assets/images/background-desktop.png)] overflow-hidden min-h-screen">
 
         <img 
           src="/assets/images/pattern-squiggly-line-top.svg" 
